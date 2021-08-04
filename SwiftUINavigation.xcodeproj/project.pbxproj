@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		4376934926BA7A14006AE16D /* SwiftUINavigationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4376934826BA7A14006AE16D /* SwiftUINavigationApp.swift */; };
-		4376934B26BA7A14006AE16D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4376934A26BA7A14006AE16D /* ContentView.swift */; };
+		4376934B26BA7A14006AE16D /* RedOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4376934A26BA7A14006AE16D /* RedOneView.swift */; };
 		4376934D26BA7A15006AE16D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4376934C26BA7A15006AE16D /* Assets.xcassets */; };
 		4376935026BA7A15006AE16D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4376934F26BA7A15006AE16D /* Preview Assets.xcassets */; };
+		4376935926BA8664006AE16D /* GreenThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4376935826BA8664006AE16D /* GreenThreeView.swift */; };
+		4376935B26BA8BC2006AE16D /* BlueTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4376935A26BA8BC2006AE16D /* BlueTwoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4376934526BA7A14006AE16D /* SwiftUINavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUINavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4376934826BA7A14006AE16D /* SwiftUINavigationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUINavigationApp.swift; sourceTree = "<group>"; };
-		4376934A26BA7A14006AE16D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4376934A26BA7A14006AE16D /* RedOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedOneView.swift; sourceTree = "<group>"; };
 		4376934C26BA7A15006AE16D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4376934F26BA7A15006AE16D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4376935126BA7A15006AE16D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4376935826BA8664006AE16D /* GreenThreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenThreeView.swift; sourceTree = "<group>"; };
+		4376935A26BA8BC2006AE16D /* BlueTwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueTwoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,9 @@
 		4376934726BA7A14006AE16D /* SwiftUINavigation */ = {
 			isa = PBXGroup;
 			children = (
+				4376935726BA8652006AE16D /* Views */,
 				4376934826BA7A14006AE16D /* SwiftUINavigationApp.swift */,
-				4376934A26BA7A14006AE16D /* ContentView.swift */,
+				4376934A26BA7A14006AE16D /* RedOneView.swift */,
 				4376934C26BA7A15006AE16D /* Assets.xcassets */,
 				4376935126BA7A15006AE16D /* Info.plist */,
 				4376934E26BA7A15006AE16D /* Preview Content */,
@@ -67,6 +72,15 @@
 				4376934F26BA7A15006AE16D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4376935726BA8652006AE16D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4376935826BA8664006AE16D /* GreenThreeView.swift */,
+				4376935A26BA8BC2006AE16D /* BlueTwoView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4376934B26BA7A14006AE16D /* ContentView.swift in Sources */,
+				4376935926BA8664006AE16D /* GreenThreeView.swift in Sources */,
+				4376935B26BA8BC2006AE16D /* BlueTwoView.swift in Sources */,
+				4376934B26BA7A14006AE16D /* RedOneView.swift in Sources */,
 				4376934926BA7A14006AE16D /* SwiftUINavigationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
