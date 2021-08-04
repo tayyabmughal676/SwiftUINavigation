@@ -12,7 +12,7 @@ struct RedOneView: View {
         NavigationView{
             VStack {
                 CircleNumberView(color: .red, number: 1)
-                    .navigationTitle("Red")
+                    .navigationBarTitle("Red", displayMode: .inline)
                     
                     .offset(y:-60)
                 NavigationLink(
